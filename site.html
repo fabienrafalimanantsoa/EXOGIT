@@ -1,20 +1,21 @@
-cat << 'EOF' > index.html
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Premier Site EXOGIT</title>
+    <title>Site EXOGIT - Version Modifiée</title>
+    <!-- Liaison avec le fichier CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main class="container">
-        <h1>Bienvenue sur mon site EXOGIT !</h1>
-        <p>Ce site a été publié avec succès via Git et GitHub depuis mon terminal.</p>
+        <span class="badge">Branche : modif</span>
+        <h1>Site EXOGIT Mis à Jour !</h1>
+        <p>Le code HTML et CSS a été modifié sur une nouvelle branche, puis fusionné vers master.</p>
         <div class="card">
-            <p>Étudiant en Informatique - Développeur Frontend en herbe 🚀</p>
+            <p>Projet réalisé par Fabien Rafalimanantsoa 💻</p>
         </div>
+        <button class="btn">Version 2.0 Validée</button>
     </main>
 </body>
 </html>
-EOF

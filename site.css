@@ -1,8 +1,7 @@
-cat << 'EOF' > style.css
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1a1a2e;
+    color: #eaeaea;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,22 +11,42 @@ body {
 
 .container {
     text-align: center;
-    background: white;
+    background: #16213e;
     padding: 40px;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    max-width: 450px;
+}
+
+.badge {
+    background-color: #e94560;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: bold;
 }
 
 h1 {
-    color: #2c3e50;
+    color: #ffffff;
+    margin-top: 15px;
 }
 
 .card {
-    margin-top: 20px;
+    margin: 20px 0;
     padding: 15px;
-    background: #eef2f3;
-    border-radius: 5px;
+    background: #0f3460;
+    border-left: 4px solid #e94560;
+    border-radius: 6px;
     font-weight: bold;
-    color: #2980b9;
 }
-EOF
+
+.btn {
+    background-color: #e94560;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+}
